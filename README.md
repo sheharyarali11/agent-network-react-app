@@ -46,13 +46,6 @@ yarn install
 npm install json-server
 ```
 
-1. Create a db.json file in the root directory with initial data:
-```json
-{
-  "agents": []
-}
-```
-
 1. Start the json-server (in a separate terminal):
 ```bash
 npx json-server --watch db.json --port 3001
